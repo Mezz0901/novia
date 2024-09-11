@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playa y salidas 💏</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-image: url('descarga1.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        h1 {
+            color: #ff6b6b;
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            padding: 10px;
+            border-radius: 10px;
+            font-size: 3em; /* Tamaño de letra grande */
+            margin-top: 20px; /* Para que el título esté en la parte superior */
+            width: 100%;
+            text-align: center; /* Centrar el texto */
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+            padding: 20px;
+            border-radius: 15px;
+            margin-top: 20px;
+            z-index: 1; /* Para que el contenedor esté detrás del título */
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .column {
+            flex: 1;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border: 2px solid red; /* Borde rojo más fino en las fotos */
+        }
+        p {
+            text-align: center;
+            color: white;
+            background-color: rgba(255, 255, 255, 0.3); /* Fondo blanco semitransparente */
+            padding: 10px;
+            border-radius: 10px;
+            color: black; /* Texto negro para contraste */
+            max-width: 400px;
+        }
+        .large-text {
+            font-size: 2em;
+            color: #ff6b6b;
+            text-align: center;
+            margin-top: 40px;
+        }
+        /* Para organizar 3 fotos arriba y 3 abajo */
+        .photo-group {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .photo-group .row {
+            margin: 0;
+        }
+        /* Centrando el texto en medio de la columna */
+        .column p {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Playa y salidas 💏</h1>
+
+    <!-- Fila con 3 fotos -->
+    <div class="container">
+        <div class="row">
+            <div class="column"><img src="1.jpeg" alt="Foto 1"></div>
+            <div class="column"><img src="2.jpeg" alt="Foto 2"></div>
+            <div class="column"><img src="3.jpeg" alt="Foto 3"></div>
+        </div>
+        <p>Describe algún viaje o salida especial que hayan tenido. Incluye fotos o detalles que la hagan recordar esos momentos.</p>
+        
+        <!-- Sección con 6 fotos a la izquierda y texto a la derecha -->
+        <div class="row">
+            <div class="column">
+                <div class="photo-group">
+                    <div class="row">
+                        <img src="4.jpeg" alt="Foto 4">
+                        <img src="5.jpeg" alt="Foto 5">
+                        <img src="6.jpeg" alt="Foto 6">
+                    </div>
+                    <div class="row">
+                        <img src="7.jpeg" alt="Foto 7">
+                        <img src="8.jpeg" alt="Foto 8">
+                        <img src="9.jpeg" alt="Foto 9">
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <p>Texto descriptivo o recuerdos de esos momentos especiales que quieras añadir aquí.</p>
+            </div>
+        </div>
+
+        <!-- Sección con 6 fotos a la derecha y texto a la izquierda -->
+        <div class="row">
+            <div class="column">
+                <p>Otro texto para describir más momentos especiales o compartir pensamientos.</p>
+            </div>
+            <div class="column">
+                <div class="photo-group">
+                    <div class="row">
+                        <img src="10.jpeg" alt="Foto 10">
+                        <img src="11.jpeg" alt="Foto 11">
+                        <img src="12.jpeg" alt="Foto 12">
+                    </div>
+                    <div class="row">
+                        <img src="13.jpeg" alt="Foto 13">
+                        <img src="14.jpeg" alt="Foto 14">
+                        <img src="15.jpeg" alt="Foto 15">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Texto final grande -->
+    <div class="large-text">¡ME ENCANTA SALIR CONTIGO!</div>
+
+</body>
+</html>
+
